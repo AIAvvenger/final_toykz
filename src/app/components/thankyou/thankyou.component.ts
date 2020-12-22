@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-thankyou',
@@ -7,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThankyouComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _router: Router) { }
+
+  toCancel():void{
+    this._router.navigate(['/checkout']);
+  }
+  
 
   ngOnInit(): void {
   }
