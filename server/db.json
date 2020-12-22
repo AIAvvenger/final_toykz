@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "name": "amirzhan",
+      "email": "amir.aralbay@mail.ru",
+      "bankcard": "18112555",
+      "password": "qweqwe",
+      "id": 1
+    }
+  ]
+}
